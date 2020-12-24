@@ -388,6 +388,8 @@ while True:
                                 headers = HTTPHeaders
                             )
 
+### GEBRUIK ###
+
 #   !x  = info over team
 #   ?x = laatste 10 wedstrijden in hoogste competitie
 #   -x = volgende 10 wedstrijden in hoogste competitie
