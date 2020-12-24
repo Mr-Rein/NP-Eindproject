@@ -25,7 +25,6 @@ main_url = sportsdb_url + urllib.parse.urlencode({
 
 print("\nWelkom op mijn network programming project:")
 print("   Voetbal data via thesportsdb.com open API.")
-
 print(  "   _____________________________\n"
         "   |             |             |\n"
         "   |___          |          ___|\n"
@@ -77,9 +76,6 @@ while True:
         print("Please try again...")
     else:
         break
-
-
-
 
 # controleer op messages zolang er geen fout voorkomt
 while True:
@@ -367,7 +363,7 @@ while True:
 
             responseMessage = str(x+1) + ". " + team + " :  " + teamPoints + " (Punten)"
             responseMessageTableForm = tableComp
-            print(responseMessage)
+            print(responseMessageTableForm)
 
             # the Webex Teams HTTP headers, including the Content-Type header for the POST JSON data
             HTTPHeaders = { 
@@ -388,7 +384,6 @@ while True:
                                 data = json.dumps(PostData), 
                                 headers = HTTPHeaders
                             )
-
 
 #   !x  = info over team
 #   ?x = laatste 10 wedstrijden in hoogste competitie
