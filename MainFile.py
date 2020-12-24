@@ -40,7 +40,7 @@ print(  "   _____________________________\n"
 print("Ryan Balfoort, SNWB 2020 Howest Brugge.\n")
 input("Press any key to continue...")
 
-### Lijst alle rooms op webex
+### Lijst al mijn rooms op webex
 
 print("List of rooms:")
 rooms = r.json()["items"]
@@ -358,11 +358,14 @@ while True:
             team = str(json_data['table'][x]['name'])
             teamPoints = str(json_data['table'][x]['total'])
 
-            
+            # Proberen mooie tabel te maken
             tableComp.add_row([team,teamPoints])
 
+            # Bericht opstellen om te verzenden
             responseMessage = str(x+1) + ". " + team + " :  " + teamPoints + " (Punten)"
             responseMessageTableForm = tableComp
+
+            # Mooie tabel (enkel te zien in programma zelf)
             print(responseMessageTableForm)
 
             # the Webex Teams HTTP headers, including the Content-Type header for the POST JSON data
