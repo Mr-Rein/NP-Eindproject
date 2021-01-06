@@ -326,7 +326,7 @@ while True:
         elif league == "Netherlands" or league == "netherlands" or league == "Nederland" or league == "nederland":
             league = '4337'
 
-        elif league == "Belgium" or league == "belgium" or league == "Beglië" or league == "belgië":
+        elif league == "Belgium" or league == "belgium" or league == "België" or league == "belgië":
             league = '4338'
 
         elif league == "France" or league == "france" or league == "Frankrijk" or league == "frankrijk":
