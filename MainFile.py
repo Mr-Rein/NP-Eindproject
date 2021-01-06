@@ -8,7 +8,7 @@ from prettytable import PrettyTable
 ### Variabelen maken
 
 # WEBEX (key eventueel veranderen als hij ongeldig is)
-webex_key = "Bearer Nzc0NTMwZDUtMDM2Yi00YzI2LWI0ZmMtMWE5YTY1ZjJlMzk5Y2E2NjRiNDAtZDAw_PF84_fecd1450-832a-4c45-a6ec-5e060cd52046"
+webex_key = "Bearer ZmNlNjEyM2ItYjAzMS00Yzc0LTkxY2EtOWIwYmQwZGE5OTU4NzFmMjhhMDctZmM4_PF84_fecd1450-832a-4c45-a6ec-5e060cd52046"
 
 r = requests.get(   "https://webexapis.com/v1/rooms",
                     headers = {"Authorization": webex_key}
